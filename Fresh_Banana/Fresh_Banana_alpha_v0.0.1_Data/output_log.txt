@@ -1,0 +1,32 @@
+Mono path[0] = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.1_Data/Managed'
+Mono path[1] = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.1_Data/Mono'
+Mono config path = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.1_Data/Mono/etc'
+PlayerConnection initialized from F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55057
+Multi-casting "[IP] 192.168.1.71 [Port] 55057 [Flags] 2 [Guid] 1206449436 [EditorId] 2367191630 [Version] 1048832 [Id] WindowsPlayer(DELLXPS) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.71:55057]
+Initialize engine version: 5.1.1p1 (17d6a7a3ab46)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x683f)
+    Vendor:   ATI
+    VRAM:     2034 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.071 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.1_Data\Managed\System.dll (this message is harmless)
