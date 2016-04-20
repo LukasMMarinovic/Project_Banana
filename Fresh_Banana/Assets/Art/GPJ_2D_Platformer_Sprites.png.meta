@@ -1,15 +1,17 @@
 fileFormatVersion: 2
 guid: f6f98f9d2d800bd43bffce6c3c620a27
-timeCreated: 1460936812
+timeCreated: 1461103952
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: player
     21300002: ground
+    21300004: dirt
+    21300006: Bear_Trap
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -57,7 +59,7 @@ TextureImporter:
         x: 0
         y: 112
         width: 16
-        height: 11
+        height: 16
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -68,6 +70,26 @@ TextureImporter:
         y: 80
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirt
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bear_Trap
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 16
+        height: 3
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
