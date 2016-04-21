@@ -16,12 +16,13 @@ public class Player_Controller : MonoBehaviour
 
     public bool hasJumped2;
 
+    private Animator animationT;
 
 
     // Use this for initialization
     void Start()
     {
-
+        animationT = GetComponent<Animator>();
     }
 
 
@@ -57,16 +58,33 @@ public class Player_Controller : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+
         }
 
         //move left
         if (Input.GetKey(KeyCode.A))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+
         }
+
+        animationT.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+        animationT.SetBool("OnGround", onGround);
+        
+        if(GetComponent<Rigidbody2D>().velocity.x > 0)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
+        }   
+        else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+        {
+            transform.localScale = new Vector3(-1f, 1f, 1f);
+        } 
+        
+
+        
     }
 
-
+        
     ///moves character up to jumpheight
     public void Jump()
     {
@@ -75,5 +93,5 @@ public class Player_Controller : MonoBehaviour
 
 
 
-}   
+} 
 
