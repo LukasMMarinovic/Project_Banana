@@ -4,8 +4,8 @@ using System.Collections;
 public class Player_Controller : MonoBehaviour
 {
     public float moveSpeed;
+    private float moveVelocity;
     public float jumpHeight;
-
 
 
     public float checkRadius;
@@ -13,20 +13,21 @@ public class Player_Controller : MonoBehaviour
     private bool onGround;
     public Transform checker;
     public Vector2 groundCheck;
-
     public bool hasJumped2;
 
+
     private Animator animationT;
+    
+
 
 
     // Use this for initialization
     void Start()
     {
         animationT = GetComponent<Animator>();
+        
+
     }
-
-
-
 
 
     // Update is called once per frame
@@ -51,26 +52,24 @@ public class Player_Controller : MonoBehaviour
             hasJumped2 = true;
         }
 
-
-
-
+        moveVelocity = 0f;
         //move right
         if (Input.GetKey(KeyCode.D))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-
+        {          
+            moveVelocity = moveSpeed;
         }
-
         //move left
         if (Input.GetKey(KeyCode.A))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-
+        {            
+            moveVelocity = -moveSpeed;
         }
+        GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
+        //plays run and idle animations
         animationT.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
         animationT.SetBool("OnGround", onGround);
         
+        //flips player based on travel direction
         if(GetComponent<Rigidbody2D>().velocity.x > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
@@ -80,8 +79,7 @@ public class Player_Controller : MonoBehaviour
             transform.localScale = new Vector3(-1f, 1f, 1f);
         } 
         
-
-        
+    
     }
 
         
