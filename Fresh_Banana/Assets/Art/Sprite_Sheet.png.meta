@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1461283899
+timeCreated: 1461713312
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,10 +12,14 @@ TextureImporter:
     21300010: walk2
     21300012: walk3
     21300014: walk4
-    21300016: Banana
+    21300016: Banana2
     21300018: trap1
     21300020: trap2
     21300022: trap 3
+    21300024: Grass_1
+    21300026: Grass_2
+    21300028: Banana1
+    21300030: Banana3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -141,13 +145,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Banana
+    - name: Banana2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 98
+        x: 8
+        y: 96
         width: 6
-        height: 7
+        height: 10
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,6 +184,46 @@ TextureImporter:
         height: 8
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grass_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Grass_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Banana1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Banana3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

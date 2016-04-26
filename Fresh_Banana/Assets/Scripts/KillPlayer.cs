@@ -6,6 +6,7 @@ public class KillPlayer : MonoBehaviour
     public LevelManangement manageLevel;
     
 
+
     // Use this for initialization
     void Start ()
     {
@@ -25,9 +26,9 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.name == "player")
         {
-      
+            
             manageLevel.Respawn();
-
+            
         }
     }
 

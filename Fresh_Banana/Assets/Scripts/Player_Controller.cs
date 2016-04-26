@@ -17,8 +17,8 @@ public class Player_Controller : MonoBehaviour
 
 
     private Animator animationT;
-    
 
+    
 
 
     // Use this for initialization

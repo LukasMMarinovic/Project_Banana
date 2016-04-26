@@ -12,15 +12,15 @@ public class LevelManangement : MonoBehaviour
 
     public int lostBananas;
 
-    
 
+    
 
 
     // Use this for initialization
     void Start ()
     {
-  
-    }
+        
+}
 	
 	// Update is called once per frame
 	void Update ()
@@ -36,7 +36,7 @@ public class LevelManangement : MonoBehaviour
     ///respawns the player 
     public IEnumerator RespawnPlayerCo ()
     {
-
+        
 
         //displays blood
         Instantiate(blood, player.transform.position, player.transform.rotation);
@@ -60,6 +60,8 @@ public class LevelManangement : MonoBehaviour
         player.GetComponent<Renderer>().enabled = true;
         //displays respawn particle
         Instantiate(respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
- 
+
+        
+       
     }
 }

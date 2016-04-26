@@ -5,7 +5,8 @@ public class PickUpBanana : MonoBehaviour
 {
 
     public int bananasToAdd;
-
+    private Player_Controller player;
+    public GameObject BananaPickup;
     //public GameObject BananaPickup;
     //private Player_Controller player;
 
@@ -21,7 +22,7 @@ public class PickUpBanana : MonoBehaviour
         ScoreManagement.AddBanana(bananasToAdd);
         //Instantiate(BananaPickup, player.transform.position, player.transform.rotation);
         Destroy(gameObject);
-
+        Instantiate(BananaPickup, player.transform.position, player.transform.rotation);
     }
 
 
@@ -34,6 +35,6 @@ public class PickUpBanana : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-	
-	}
+        player = FindObjectOfType<Player_Controller>();
+    }
 }
