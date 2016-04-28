@@ -12,7 +12,7 @@ public class LevelManangement : MonoBehaviour
 
     public int lostBananas;
 
-
+    
     
 
 
@@ -53,6 +53,9 @@ public class LevelManangement : MonoBehaviour
         Debug.Log("respawn");
         //creates a small pause allowing the user to take in what just happened
         yield return new WaitForSeconds(respawnDelay);
+
+        
+
 
         //places model at current spawnpoint
         player.transform.position = currentCheckpoint.transform.position;

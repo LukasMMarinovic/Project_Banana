@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1461713312
+timeCreated: 1461809774
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,10 @@ TextureImporter:
     21300026: Grass_2
     21300028: Banana1
     21300030: Banana3
+    21300032: dirt2
+    21300034: dirt3
+    21300036: Spawn
+    21300038: Checkpoint
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,7 +73,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
+        y: 284
         width: 16
         height: 16
       alignment: 0
@@ -79,7 +83,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
+        y: 255
         width: 16
         height: 16
       alignment: 0
@@ -89,7 +93,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 80
+        y: 255
         width: 16
         height: 16
       alignment: 0
@@ -99,7 +103,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 61
+        y: 246
         width: 16
         height: 3
       alignment: 7
@@ -109,7 +113,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 112
+        y: 284
         width: 16
         height: 16
       alignment: 0
@@ -119,7 +123,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 112
+        y: 284
         width: 16
         height: 16
       alignment: 0
@@ -129,7 +133,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 112
+        y: 284
         width: 16
         height: 16
       alignment: 0
@@ -139,7 +143,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 112
+        y: 284
         width: 16
         height: 16
       alignment: 0
@@ -149,7 +153,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 96
+        y: 271
         width: 6
         height: 10
       alignment: 0
@@ -159,7 +163,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 61
+        y: 246
         width: 16
         height: 6
       alignment: 7
@@ -169,7 +173,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 61
+        y: 246
         width: 16
         height: 7
       alignment: 7
@@ -179,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 61
+        y: 246
         width: 16
         height: 8
       alignment: 7
@@ -189,7 +193,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 80
+        y: 255
         width: 16
         height: 8
       alignment: 0
@@ -199,7 +203,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 80
+        y: 255
         width: 16
         height: 8
       alignment: 0
@@ -209,7 +213,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 271
         width: 6
         height: 10
       alignment: 0
@@ -219,9 +223,49 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 96
+        y: 271
         width: 6
         height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirt2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dirt3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spawn
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Checkpoint
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 214
+        width: 15
+        height: 12
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
