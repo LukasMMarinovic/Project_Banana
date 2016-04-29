@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1461809774
+timeCreated: 1461888756
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -24,6 +24,12 @@ TextureImporter:
     21300034: dirt3
     21300036: Spawn
     21300038: Checkpoint
+    21300040: Monkey1
+    21300042: Monkey2
+    21300044: Monkey3
+    21300046: Monkey4
+    21300048: Monkey5
+    21300050: Crate
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,7 +72,11 @@ TextureImporter:
   spritePixelsToUnits: 16
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings: []
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -2
+    compressionQuality: 50
   spriteSheet:
     sprites:
     - name: player
@@ -266,6 +276,66 @@ TextureImporter:
         y: 214
         width: 15
         height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monkey1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monkey2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monkey3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monkey4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monkey5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 144
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Crate
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 255
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
