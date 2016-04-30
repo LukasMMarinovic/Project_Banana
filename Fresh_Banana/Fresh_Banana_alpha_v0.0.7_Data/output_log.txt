@@ -1,35 +1,36 @@
-Mono path[0] = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Managed'
-Mono path[1] = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Mono'
-Mono config path = 'F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Mono/etc'
-PlayerConnection initialized from F:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55449
-Multi-casting "[IP] 192.168.1.71 [Port] 55449 [Flags] 2 [Guid] 417858469 [EditorId] 1318818412 [Version] 1048832 [Id] WindowsPlayer(DELLXPS) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.1.71:55449]
+Mono path[0] = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Managed'
+Mono path[1] = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Mono'
+Mono config path = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data/Mono/etc'
+PlayerConnection initialized from E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.0.7_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55458
+Multi-casting "[IP] 10.100.162.40 [Port] 55458 [Flags] 2 [Guid] 2623042243 [EditorId] 1318818412 [Version] 1048832 [Id] WindowsPlayer(HHS-Lab11-3) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.100.162.40:55458]
 Initialize engine version: 5.1.1p1 (17d6a7a3ab46)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 7700 Series (ID=0x683f)
-    Vendor:   ATI
-    VRAM:     2034 MB
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     128 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.037 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: F:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\System.dll (this message is harmless)
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.0.7_Data\Managed\System.dll (this message is harmless)
 Activated Checkpoint(-0.5, 1.0, 0.0)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -62,12 +63,16 @@ KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fre
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
 
-Activated Checkpoint(8.5, 2.0, 0.0)
+respawn
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
-Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
  
-(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
 
 Activated Checkpoint(8.5, 2.0, 0.0)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -122,6 +127,56 @@ Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fre
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
 
+Activated Checkpoint(8.5, 2.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Activated Checkpoint(8.5, 2.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
 Activated Checkpoint(32.5, 5.0, 0.0)
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -154,9 +209,56 @@ UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
 UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
 LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
-BearTrap:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\BearTrap.cs:40)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
 
 respawn
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -169,6 +271,13 @@ BearTrap:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
 
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
 respawn
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -176,7 +285,7 @@ UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
 UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
 LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
-BearTrap:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\BearTrap.cs:40)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
 
@@ -187,7 +296,7 @@ UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
 UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
 LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
-BearTrap:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\BearTrap.cs:40)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
 
@@ -198,7 +307,108 @@ UnityEngine.Debug:Log(Object)
 UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
 UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
 LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
-BearTrap:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\BearTrap.cs:40)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
  
 (Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+respawn
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<RespawnPlayerCo>c__Iterator0:MoveNext() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:53)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+LevelManangement:Respawn() (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\LevelManangement.cs:33)
+KillPlayer:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\KillPlayer.cs:30)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/LevelManangement.cs Line: 53)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
 

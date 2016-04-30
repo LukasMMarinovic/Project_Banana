@@ -12,21 +12,28 @@ public class LevelManangement : MonoBehaviour
 
     public int lostBananas;
 
-    
-    
+    public CameraControl cam;
+
+
+
 
 
     // Use this for initialization
     void Start ()
     {
-        
-}
+        cam = FindObjectOfType<CameraControl>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
         player = FindObjectOfType<Player_Controller>();
-	}
+
+
+
+}
+
+
 
     public void Respawn()
     {
@@ -36,13 +43,15 @@ public class LevelManangement : MonoBehaviour
     ///respawns the player 
     public IEnumerator RespawnPlayerCo ()
     {
-        
-
-        //displays blood
-        Instantiate(blood, player.transform.position, player.transform.rotation);
         //hides player model
         player.enabled = false;
         player.GetComponent<Renderer>().enabled = false;
+
+        cam.isBeingFollowed = false;
+        
+        //displays blood
+        Instantiate(blood, player.transform.position, player.transform.rotation);
+
 
         //removes bananas from score
         ScoreManagement.AddBanana(-lostBananas);
@@ -61,6 +70,9 @@ public class LevelManangement : MonoBehaviour
         player.transform.position = currentCheckpoint.transform.position;
         player.enabled = true;
         player.GetComponent<Renderer>().enabled = true;
+
+        cam.isBeingFollowed = true;
+
         //displays respawn particle
         Instantiate(respawnParticle, currentCheckpoint.transform.position, currentCheckpoint.transform.rotation);
 

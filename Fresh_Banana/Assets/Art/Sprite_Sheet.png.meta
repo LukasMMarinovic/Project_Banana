@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1461888756
+timeCreated: 1462034472
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -30,6 +30,7 @@ TextureImporter:
     21300046: Monkey4
     21300048: Monkey5
     21300050: Crate
+    21300052: SpatBanana
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,7 +53,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -2
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -72,11 +73,7 @@ TextureImporter:
   spritePixelsToUnits: 16
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: -2
-    compressionQuality: 50
+  buildTargetSettings: []
   spriteSheet:
     sprites:
     - name: player
@@ -336,6 +333,16 @@ TextureImporter:
         y: 255
         width: 16
         height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpatBanana
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 275
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

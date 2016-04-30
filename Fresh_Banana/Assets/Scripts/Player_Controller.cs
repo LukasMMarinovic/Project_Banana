@@ -18,7 +18,8 @@ public class Player_Controller : MonoBehaviour
 
     private Animator animationT;
 
-    
+    public Transform projectileStart;
+    public GameObject spatBanana;
 
 
     // Use this for initialization
@@ -77,9 +78,17 @@ public class Player_Controller : MonoBehaviour
         else if (GetComponent<Rigidbody2D>().velocity.x < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
-        } 
-        
-    
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (ScoreManagement.bananasCollected > 0)
+            {
+                Instantiate(spatBanana, projectileStart.position, projectileStart.rotation);
+                ScoreManagement.bananasCollected -= 1;
+            }
+        }
+
     }
 
         
