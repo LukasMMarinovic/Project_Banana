@@ -11,6 +11,9 @@ public class BearTrap : MonoBehaviour
 
     public bool hasRespawned;
 
+    public int damageToGive;
+
+
     // Use this for initialization
     void Start ()
     {
@@ -37,13 +40,14 @@ public class BearTrap : MonoBehaviour
         {
             hasRespawned = false;
             triggered = true;
-            manageLevel.Respawn();
-
+            
+            HealthManager.HurtPlayer(damageToGive);
+ 
 
 
         }
     }
-    void OnTriggerExit2D(Collider2D other)
+  void OnTriggerExit2D(Collider2D other)
     {
         if (other.name == "player")
         {

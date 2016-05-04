@@ -14,22 +14,26 @@ public class LevelManangement : MonoBehaviour
 
     public CameraControl cam;
 
+    public HealthManager hpManager;
 
-
-
+ 
 
     // Use this for initialization
     void Start ()
     {
         cam = FindObjectOfType<CameraControl>();
+        
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
+  
+
         player = FindObjectOfType<Player_Controller>();
 
-
+        hpManager = FindObjectOfType<HealthManager>();
+        
 
 }
 
@@ -56,6 +60,9 @@ public class LevelManangement : MonoBehaviour
         //removes bananas from score
         ScoreManagement.AddBanana(-lostBananas);
 
+
+
+
         //prevents camera sliding after death
         player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         //logs respawn
@@ -70,6 +77,9 @@ public class LevelManangement : MonoBehaviour
         player.transform.position = currentCheckpoint.transform.position;
         player.enabled = true;
         player.GetComponent<Renderer>().enabled = true;
+
+        hpManager.fullHealth();
+        hpManager.isDead = false;
 
         cam.isBeingFollowed = true;
 

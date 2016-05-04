@@ -5,20 +5,22 @@ public class SpatBananaControl : MonoBehaviour
 {
 
     public float speed;
+    public float rotationSpeed;
+    public GameObject impactParticle;
     public Player_Controller player;
 
-    public GameObject enemyDeathParticle;
-    public GameObject impactParticle;
+    public int damage;
 
-    public int bananasEarned;
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
         player = FindObjectOfType<Player_Controller>();
 
         if (player.transform.localScale.x < 0)
         {
+            rotationSpeed = -rotationSpeed;
             speed = -speed;
         }
 	}
@@ -26,6 +28,7 @@ public class SpatBananaControl : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        GetComponent<Rigidbody2D>().angularVelocity = rotationSpeed;
         GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
 	}
 
@@ -34,9 +37,7 @@ public class SpatBananaControl : MonoBehaviour
 
         if (other.tag =="Enemy")
         {
-            Instantiate(enemyDeathParticle, other.transform.position, other.transform.rotation);
-            Destroy(other.gameObject);
-            ScoreManagement.AddBanana(bananasEarned);
+            other.GetComponent<EnemyHealth>().giveDamage(damage); 
 
         }
         Instantiate(impactParticle, transform.position, transform.rotation);

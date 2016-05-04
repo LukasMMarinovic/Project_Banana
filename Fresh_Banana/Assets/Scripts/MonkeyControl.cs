@@ -8,6 +8,7 @@ public class MonkeyControl : MonoBehaviour
 
     public float checkRadius;
     public LayerMask consideredAsWall;
+    public LayerMask consideredAsPlayer;
     private bool onWall;
     public Transform wallChecker;
     public Vector2 wallCheck;
@@ -32,7 +33,7 @@ public class MonkeyControl : MonoBehaviour
 
 
         wallCheck = wallChecker.position;
-        onWall = Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsWall);
+        onWall = (Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsWall)) || (Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsPlayer));
 
         if(onWall || !notAtEdge)
         {
