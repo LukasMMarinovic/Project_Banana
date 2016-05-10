@@ -1,0 +1,258 @@
+Mono path[0] = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.1.1_Data/Managed'
+Mono path[1] = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.1.1_Data/Mono'
+Mono config path = 'E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.1.1_Data/Mono/etc'
+PlayerConnection initialized from E:/Files/Projects/Project_Banana/Fresh_Banana/Fresh_Banana_alpha_v0.1.1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55473
+Multi-casting "[IP] 10.100.163.51 [Port] 55473 [Flags] 2 [Guid] 353142919 [EditorId] 1825340739 [Version] 1048832 [Id] WindowsPlayer(HHS-Lab11-3) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.100.163.51:55473]
+Initialize engine version: 5.1.1p1 (17d6a7a3ab46)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Files\Projects\Project_Banana\Fresh_Banana\Fresh_Banana_alpha_v0.1.1_Data\Managed\System.dll (this message is harmless)
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Activated Checkpoint(32.5, 5.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Font size and style overrides are only supported for dynamic fonts.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEngine.TextGenerator:ValidatedSettings(TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:133)
+UnityEngine.TextGenerator:PopulateAlways(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:221)
+UnityEngine.TextGenerator:Populate(String, TextGenerationSettings) (at C:\buildslave\unity\build\Runtime\Export\TextGenerator.cs:209)
+UnityEngine.UI.Text:OnFillVBO(List`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:438)
+UnityEngine.UI.Graphic:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:337)
+UnityEngine.UI.Text:UpdateGeometry() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Text.cs:363)
+UnityEngine.UI.Graphic:Rebuild(CanvasUpdate) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Graphic.cs:317)
+UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\CanvasUpdateRegistry.cs:104)
+UnityEngine.Canvas:SendWillRenderCanvases() (at C:\buildslave\unity\build\artifacts\generated\common\modules\UICanvasBindings.gen.cs:174)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/TextGenerator.cs Line: 133)
+
+Activated Checkpoint(8.5, 2.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+
+Activated Checkpoint(8.5, 2.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Checkpoint:OnTriggerEnter2D(Collider2D) (at F:\Files\Projects\Project_Banana\Fresh_Banana\Assets\Scripts\Checkpoint.cs:27)
+ 
+(Filename: F:/Files/Projects/Project_Banana/Fresh_Banana/Assets/Scripts/Checkpoint.cs Line: 27)
+

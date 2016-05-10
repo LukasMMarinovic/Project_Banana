@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1462034472
+timeCreated: 1462492135
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -31,6 +31,9 @@ TextureImporter:
     21300048: Monkey5
     21300050: Crate
     21300052: SpatBanana
+    21300054: heart1
+    21300056: Heart 2
+    21300058: Heart3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -343,6 +346,36 @@ TextureImporter:
         y: 275
         width: 4
         height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: heart1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Heart 2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Heart3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 273
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -22,6 +22,12 @@ public class Player_Controller : MonoBehaviour
     public GameObject spatBanana;
 
 
+    public float knockback;
+    public float knockbackCount;
+    public float knockbackLength;
+    public bool knockbackRight;
+
+
     // Use this for initialization
     void Start()
     {
@@ -43,11 +49,11 @@ public class Player_Controller : MonoBehaviour
         {
             hasJumped2 = false;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && onGround)
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && onGround)
         {
             Jump();
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && !hasJumped2 && !onGround)
+        else if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && !hasJumped2 && !onGround)
         {
             Jump();
             hasJumped2 = true;
@@ -56,15 +62,34 @@ public class Player_Controller : MonoBehaviour
         moveVelocity = 0f;
         //move right
         if (Input.GetKey(KeyCode.D))
-        {          
+        {
             moveVelocity = moveSpeed;
         }
         //move left
         if (Input.GetKey(KeyCode.A))
-        {            
+        {
             moveVelocity = -moveSpeed;
         }
-        GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+
+        if (knockbackCount <= 0)
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+        }
+        else
+        {
+            if(knockbackRight)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(-knockback*2, knockback-knockback/3);
+            }
+            if (!knockbackRight)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(knockback*2, knockback - knockback / 3);
+            }
+            knockbackCount -= Time.deltaTime;
+        }
+
+
+
 
         //plays run and idle animations
         animationT.SetFloat("Speed", Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));

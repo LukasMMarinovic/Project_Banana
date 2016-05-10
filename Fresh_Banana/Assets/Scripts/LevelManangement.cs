@@ -78,7 +78,7 @@ public class LevelManangement : MonoBehaviour
         player.enabled = true;
         player.GetComponent<Renderer>().enabled = true;
 
-        hpManager.fullHealth();
+        hpManager.FullHealth();
         hpManager.isDead = false;
 
         cam.isBeingFollowed = true;

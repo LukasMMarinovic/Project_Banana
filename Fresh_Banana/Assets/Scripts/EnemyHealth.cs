@@ -8,11 +8,16 @@ public class EnemyHealth : MonoBehaviour
     public GameObject deathEffect;
     public int bananasOnDeath;
 
-	// Use this for initialization
-	void Start ()
+    public GameObject Banana;
+
+
+
+
+    // Use this for initialization
+    void Start ()
     {
-	
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -20,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
 	    if(enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
-            ScoreManagement.AddBanana(bananasOnDeath);
+            DropBanana(transform, bananasOnDeath);
             Destroy(gameObject);
 
         }
@@ -29,4 +34,16 @@ public class EnemyHealth : MonoBehaviour
     {
         enemyHealth -= damageGiven;
     }
+
+
+    public void DropBanana(Transform point, int bananasToDrop)
+    {
+        while(bananasToDrop > 0)
+        {
+            Instantiate(Banana, transform.position, transform.rotation);
+            bananasToDrop--;
+        }
+    }
+
+
 }

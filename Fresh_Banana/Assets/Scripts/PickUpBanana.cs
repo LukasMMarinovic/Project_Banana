@@ -7,8 +7,8 @@ public class PickUpBanana : MonoBehaviour
     public int bananasToAdd;
     private Player_Controller player;
     public GameObject BananaPickup;
-    //public GameObject BananaPickup;
-    //private Player_Controller player;
+    
+    
 
     ///determines if the player is activating the trigger
     /// and "eats" the banana while adding to the score
@@ -37,4 +37,5 @@ public class PickUpBanana : MonoBehaviour
     {
         player = FindObjectOfType<Player_Controller>();
     }
+
 }

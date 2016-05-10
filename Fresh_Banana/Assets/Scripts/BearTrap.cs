@@ -14,13 +14,15 @@ public class BearTrap : MonoBehaviour
     public int damageToGive;
 
 
+    public HealthManager hpManager;
+
     // Use this for initialization
     void Start ()
     {
         
         animationBT = GetComponent<Animator>();      
         manageLevel = FindObjectOfType<LevelManangement>();
-        
+        hpManager = FindObjectOfType<HealthManager>();
 
 
     }
@@ -41,7 +43,7 @@ public class BearTrap : MonoBehaviour
             hasRespawned = false;
             triggered = true;
             
-            HealthManager.HurtPlayer(damageToGive);
+            hpManager.HurtPlayer(damageToGive);
  
 
 

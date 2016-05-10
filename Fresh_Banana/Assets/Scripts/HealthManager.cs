@@ -11,15 +11,17 @@ public class HealthManager : MonoBehaviour
 
     public bool isDead;
 
-    //public string startingHP;
-    //public string playerHP;
+    public string startingHP;
+    public string playerHP;
 
     // Use this for initialization
     void Start ()
     {
         
         text = GetComponent<Text>();
-       // playerHP = startingHP;
+
+        
+        playerHP = startingHP;
         playerHealth = startingPlayerHealth;
         manageLevel = FindObjectOfType<LevelManangement>();
         isDead = false;
@@ -31,25 +33,39 @@ public class HealthManager : MonoBehaviour
     {
 	    if(playerHealth <= 0 && !isDead)
         {
-            Debug.Log("0");
+            
             playerHealth = 0;
             manageLevel.Respawn();
             isDead = true;
 
         }
 
-        text.text = "" + playerHealth;
+        text.text = "" + playerHP;
 
 	}
 
-    public static void HurtPlayer(int damage)
+    public void HurtPlayer(int damage)
     {
         playerHealth -= damage;
-
+        for (int K = 0; K < damage; K++)
+        {
+            playerHP = playerHP.Remove(playerHP.Length - 5);
+        }
     }
 
-    public void fullHealth()
+
+
+
+    public void FullHealth()
     {
         playerHealth = startingPlayerHealth;
+		playerHP = startingHP;
+    }
+
+    public void AddHeart()
+    {
+        playerHealth += 1;
+        playerHP += " [||]";
     }
 }
+

@@ -11,12 +11,14 @@ public class SpatBananaControl : MonoBehaviour
 
     public int damage;
 
+    
 
 
     // Use this for initialization
     void Start ()
     {
         player = FindObjectOfType<Player_Controller>();
+        
 
         if (player.transform.localScale.x < 0)
         {
@@ -37,8 +39,8 @@ public class SpatBananaControl : MonoBehaviour
 
         if (other.tag =="Enemy")
         {
-            other.GetComponent<EnemyHealth>().giveDamage(damage); 
-
+            other.GetComponent<EnemyHealth>().giveDamage(damage);
+            
         }
         Instantiate(impactParticle, transform.position, transform.rotation);
         Destroy(gameObject);

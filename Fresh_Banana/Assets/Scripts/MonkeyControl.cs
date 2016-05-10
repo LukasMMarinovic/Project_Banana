@@ -33,7 +33,7 @@ public class MonkeyControl : MonoBehaviour
 
 
         wallCheck = wallChecker.position;
-        onWall = (Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsWall)) || (Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsPlayer));
+        onWall = (Physics2D.OverlapCircle(wallCheck, checkRadius, consideredAsWall));
 
         if(onWall || !notAtEdge)
         {
