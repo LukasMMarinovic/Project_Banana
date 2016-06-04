@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d5cbbef103039e14cb5cb743f831bae0
-timeCreated: 1462492135
+timeCreated: 1464901875
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -34,6 +34,11 @@ TextureImporter:
     21300054: heart1
     21300056: Heart 2
     21300058: Heart3
+    21300060: Spikes
+    21300062: End1
+    21300064: jump
+    21300066: End2
+    21300068: End3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -265,9 +270,9 @@ TextureImporter:
         x: 0
         y: 214
         width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 32
+      alignment: 9
+      pivot: {x: .5, y: .25}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Checkpoint
       rect:
@@ -376,6 +381,56 @@ TextureImporter:
         y: 273
         width: 9
         height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spikes
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 246
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: End1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 214
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jump
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: End2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 214
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: End3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 214
+        width: 12
+        height: 32
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

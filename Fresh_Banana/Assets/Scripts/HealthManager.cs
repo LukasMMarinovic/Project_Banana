@@ -47,10 +47,13 @@ public class HealthManager : MonoBehaviour
     public void HurtPlayer(int damage)
     {
         playerHealth -= damage;
-        for (int K = 0; K < damage; K++)
-        {
-            playerHP = playerHP.Remove(playerHP.Length - 5);
-        }
+		if (playerHP.Length > 0) 
+		{
+			for (int K = 0; K < damage; K++)
+			{
+				playerHP = playerHP.Remove (playerHP.Length - 5);
+			}
+		}
     }
 
 
